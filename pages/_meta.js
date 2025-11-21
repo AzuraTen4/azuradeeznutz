@@ -9,7 +9,7 @@
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://x.com/Azuraten4",
+    "href": "https://twitter.com/shuding_",
     "newWindow": true
   }
 }
