@@ -3,16 +3,16 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-      {/* Logo dari public folder */}
+    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
       <img 
         src="/gambar/logo.png" 
-        alt="For The Kingdom Logo" 
-        width={32} 
-        height={32}
+        alt="FTK Logo" 
+        width={40} 
+        height={40}
+        style={{ borderRadius: '4px' }}
       />
-      <span style={{ fontWeight: 'bold', fontSize: '18px' }}>
-        For The Kingdom Guide
+      <span style={{ fontWeight: 'bold', fontSize: '20px' }}>
+        FOR THE KINGDOM
       </span>
     </div>
   ),
