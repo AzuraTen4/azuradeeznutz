@@ -1,7 +1,6 @@
 {
-  "index": "Introduction",
-  "getting-started": "Getting Started1",
-  "started": "Getting Started",
+  index: "Introduction",
+  getting-started: "Getting Started1",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
   "about": {
