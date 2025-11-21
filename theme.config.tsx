@@ -7,10 +7,17 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/AzuraTen4/documentation-starter-kit',
   },
   chat: {
-    link: 'https://discord.gg/QB9xDPKXwT',
+    link: 'https://discord.gg/XXXXXXX',
   },
   footer: {
-    text: '', // ← INI YANG BISA DIGANTI
+    text: 'Made With Love', // ← KOSONGIN ATAU GANTI DENGAN TEXT KAMU
+  },
+  // TAMBAHIN INI UNTUK NONAKTIFKAN FEEDBACK
+  feedback: {
+    content: null, // ← NONAKTIFKAN FEEDBACK
+  },
+  editLink: {
+    component: null, // ← NONAKTIFKAN EDIT LINK JIKA PERLU
   },
 }
 
