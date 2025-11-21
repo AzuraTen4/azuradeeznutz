@@ -1,13 +1,15 @@
 {
   "index": "Introduction",
-  "started": "Getting Started",
   "another": "Another Page",
-  "about": "About",
   "advanced": "Advanced (A Folder)",
-
-    "contact": {
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
     "title": "Contact ↗",
+    "type": "page",
     "href": "https://x.com/Azuraten4",
     "newWindow": true
-    }
+  }
 }
