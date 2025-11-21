@@ -16,7 +16,6 @@ const config: DocsThemeConfig = {
       </span>
     </div>
   ),
-  logo: <span>For The Kingdom Guide</span>,
   project: {
     link: 'https://github.com/AzuraTen4',
   },
@@ -24,14 +23,13 @@ const config: DocsThemeConfig = {
     link: 'https://discord.gg/QB9xDPKXwT',
   },
   footer: {
-    text: 'Made With Love', // ← KOSONGIN ATAU GANTI DENGAN TEXT KAMU
+    text: 'Made With Love',
   },
-  // TAMBAHIN INI UNTUK NONAKTIFKAN FEEDBACK
   feedback: {
-    content: null, // ← NONAKTIFKAN FEEDBACK
+    content: null,
   },
   editLink: {
-    component: null, // ← NONAKTIFKAN EDIT LINK JIKA PERLU
+    component: null,
   },
 }
 
