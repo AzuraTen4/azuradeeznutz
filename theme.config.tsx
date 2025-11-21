@@ -3,18 +3,25 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+      {/* Logo dari public folder */}
       <img 
         src="/gambar/logo.png" 
-        alt="FTK Logo" 
-        width={40} 
-        height={40}
-        style={{ borderRadius: '4px' }}
+        alt="For The Kingdom Logo" 
+        width={32} 
+        height={32}
       />
-      <span style={{ fontWeight: 'bold', fontSize: '20px' }}>
-        FOR THE KINGDOM
+      <span style={{ fontWeight: 'bold', fontSize: '18px' }}>
+        For The Kingdom Guide
       </span>
     </div>
+  ),
+  head: (
+    <>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      {/* Atau kalo pake PNG: */}
+      {/* <link rel="icon" type="image/png" href="/favicon.png" /> */}
+    </>
   ),
   project: {
     link: 'https://github.com/AzuraTen4',
@@ -33,4 +40,5 @@ const config: DocsThemeConfig = {
   },
 }
 
-export default config
+export default config 
+
