@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
     link: 'https://discord.gg/QB9xDPKXwT',
   },
   footer: {
-    text: 'Made with Love',
+    text: '',
   },
 }
 
