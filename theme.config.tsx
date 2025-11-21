@@ -2,6 +2,14 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
+    // TAMBAHIN useNextSeoProps UNTUK CUSTOM TITLE
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – For The Kingdom Guide', // Format: "Page Title – FTK"
+      // Atau kalau mau tanpa suffix:
+      // titleTemplate: '%s'
+    }
+  },
   logo: (
     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
       {/* Logo dari public folder */}
