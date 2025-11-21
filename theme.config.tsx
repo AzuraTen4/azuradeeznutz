@@ -7,7 +7,7 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/AzuraTen4/documentation-starter-kit',
   },
   chat: {
-    link: 'https://discord.gg/XXXXXXX',
+    link: 'https://discord.gg/QB9xDPKXwT',
   },
   footer: {
     text: 'Made With Love', // ← KOSONGIN ATAU GANTI DENGAN TEXT KAMU
