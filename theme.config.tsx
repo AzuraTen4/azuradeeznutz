@@ -16,11 +16,9 @@ const config: DocsThemeConfig = {
       </span>
     </div>
   ),
-  head: (
+head: (
     <>
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-      {/* Atau kalo pake PNG: */}
-      {/* <link rel="icon" type="image/png" href="/favicon.png" /> */}
     </>
   ),
   project: {
