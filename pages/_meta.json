@@ -8,7 +8,7 @@
   "quest": "Quest",
   "crafting": "Item Crafting",
   "storage-inventory": "Backpack",
-  "zone": "Kingdom Territory",
+  "territory": "Kingdom Territory",
   "king": "King",
   "p2p": "P2P Trading",
   "mounts": "Mounts",
@@ -25,5 +25,6 @@
     "newWindow": true
   }
 }
+
 
 
