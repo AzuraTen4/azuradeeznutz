@@ -1,32 +1,29 @@
 import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
 
-const config: DocsThemeConfig = {
-    // TAMBAHIN useNextSeoProps UNTUK CUSTOM TITLE
+const config = {
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – For The Kingdom Guide', // Format: "Page Title – FTK"
-      // Atau kalau mau tanpa suffix:
-      // titleTemplate: '%s'
+      titleTemplate: '%s – For The Kingdom Guide'
     }
   },
   logo: (
     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-      {/* Logo dari public folder */}
       <img 
         src="/gambar/logo.png" 
         alt="For The Kingdom Logo" 
         width={32} 
         height={32}
+        style={{ borderRadius: '4px' }}
       />
       <span style={{ fontWeight: 'bold', fontSize: '18px' }}>
         For The Kingdom Guide
       </span>
     </div>
   ),
-head: (
+  head: (
     <>
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </>
   ),
   project: {
@@ -36,7 +33,7 @@ head: (
     link: 'https://discord.gg/QB9xDPKXwT',
   },
   footer: {
-    text: 'Made With Love',
+    text: 'Made With Love ❤️',
   },
   feedback: {
     content: null,
@@ -44,7 +41,8 @@ head: (
   editLink: {
     component: null,
   },
+  // Tambahkan docs repository base
+  docsRepositoryBase: 'https://github.com/AzuraTen4/accumulation-starter-kit/blob/main'
 }
 
-export default config 
-
+export default config
