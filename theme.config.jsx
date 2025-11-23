@@ -33,7 +33,7 @@ const config = {
     link: 'https://discord.gg/QB9xDPKXwT',
   },
   footer: {
-    text: 'Made With Love ❤️',
+    text: 'Made With Love ❤️ © AzuraTen4',
   },
   feedback: {
     content: null,
