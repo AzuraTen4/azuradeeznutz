@@ -2,15 +2,7 @@
   "index": "Introduction",
   "getting-started": "Getting Started",
   "attributes": "Player Attributes",
-  "equipment": {
-    "title": "Equipment",
-    "type": "page",
-    "pages": {
-      "weapon": "Weapon",
-      "gears": "Gears",
-      "upgrading-your-equipment": "Upgrading Your Equipment"
-    }
-      },
+  "equipment": "Equipment",
   "perks": "Perks",
   "skills": "Weapon Skills",
   "quest": "Quest",
@@ -33,6 +25,7 @@
     "newWindow": true
   }
 }
+
 
 
 
