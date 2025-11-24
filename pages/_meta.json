@@ -2,7 +2,7 @@
   "index": "Introduction",
   "getting-started": "Getting Started",
   "attributes": "Player Attributes",
-  "weapon": "Equipment",
+  "equipment": "Equipment",
   "perks": "Perks",
   "skills": "Weapon Skills",
   "quest": "Quest",
@@ -25,6 +25,7 @@
     "newWindow": true
   }
 }
+
 
 
 
