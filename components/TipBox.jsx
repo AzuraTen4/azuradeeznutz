@@ -1,4 +1,4 @@
-export default function TipBox({ title = "TIP", children }) {
+export default function TipBox({ title = "TIP 💡", children }) {
   return (
     <div className="tipbox">
       <strong className="tipbox-title">{title}</strong>
