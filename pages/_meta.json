@@ -13,6 +13,7 @@
   "p2p": "P2P Trading",
   "mounts": "Mounts",
   "rebirth": "Rebirth",
+  "scroll": "Scrolls",
   "misc": "Miscellaneous",
   "about": {
     "title": "About",
@@ -25,6 +26,7 @@
     "newWindow": true
   }
 }
+
 
 
 
