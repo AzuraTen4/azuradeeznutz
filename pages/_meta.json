@@ -14,6 +14,7 @@
   "mounts": "Mounts",
   "rebirth": "Rebirth",
   "scroll": "Scrolls",
+  "guild": "Guild",
   "misc": "Miscellaneous",
   "about": {
     "title": "About",
@@ -26,6 +27,7 @@
     "newWindow": true
   }
 }
+
 
 
 
