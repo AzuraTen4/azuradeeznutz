@@ -1,6 +1,6 @@
 {
-  "index": "Introduction",
-  "getting-started": "Getting Started",
+  "index": "📜 Introduction",
+  "getting-started": "🎯 Getting Started",
   "attributes": "Player Attributes",
   "equipment": "Equipment",
   "perks": "Perks",
@@ -27,6 +27,7 @@
     "newWindow": true
   }
 }
+
 
 
 
