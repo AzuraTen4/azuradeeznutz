@@ -1,0 +1,21 @@
+export default {
+  "index": "📜 Introduction",
+  "getting-started": "🎯 Getting Started",
+  "attributes": "📊 Player Attributes",
+  "equipment": "🛡️ Equipment",
+  "perks": "🌟 Perks",
+  "skills": "🗡️ Weapon Skills",
+  "quest": "📜 Quest",
+  "crafting": "🛠️ Item Crafting",
+  "storage-inventory": "🎒 Backpack",
+  "Castle": "🏰 Castle",
+  "territory": "🗺️ Kingdom Territory",
+  "p2p": "🤝 P2P Trading",
+  "mounts": "🐎 Mounts",
+  "rebirth": "🔁 Rebirth",
+  "scroll": "📜 Scrolls",
+  "guild": "🛡️ Guild",
+  "misc": "🧩 Miscellaneous",
+  "about": { "title": "About", "type": "page" },
+  "contact": { "title": "Contact ↗", "type": "page", "href": "https://twitter.com/Azuraten4", "newWindow": true }
+} 
