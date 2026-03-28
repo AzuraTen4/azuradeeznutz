@@ -1,0 +1,6 @@
+export default {
+  "inventory": "🎒 Inventory",
+  "Item-discard": "🗑️ Item Discard",
+  "Local-Shop": "🏪 Local Shop",
+  "storage": "📦 Storage"
+}
