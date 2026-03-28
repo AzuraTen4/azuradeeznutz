@@ -1,0 +1,5 @@
+export default {
+  "type-of-zones": "🚦 Type of Zones",
+  "capture-tiles": "🚩 Capture Tiles",
+  "looting-system": "💰 Looting"
+}
