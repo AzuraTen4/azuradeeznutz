@@ -1,0 +1,6 @@
+export default {
+  "connecting-your-wallet": "🔗 Connecting Your Wallet",
+  "creating-your-character": "🎭 Creating Your Character",
+  "gameplay-(Basic)": "🎮 Basic Gameplay",
+  "Idle-automation": "🤖 Idle Automation"
+}
