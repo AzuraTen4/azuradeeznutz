@@ -15,6 +15,7 @@ export default {
   "rebirth": "🔁 Rebirth",
   "scroll": "📜 Scrolls",
   "guild": "🛡️ Guild",
+  "dandelion": "🌀 Dandelion/Teleport",
   "misc": "🧩 Miscellaneous",
   "about": { "title": "About", "type": "page" },
   "contact": { "title": "Contact ↗", "type": "page", "href": "https://twitter.com/Azuraten4", "newWindow": true }
