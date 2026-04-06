@@ -50,7 +50,7 @@ const config = {
   placeholder: 'Search Guide.....'
 },
   banner: {
-  key: 'ftk-banner',
+  content: 'ftk-banner',
   text: '🎮 For The Kingdom is now in Testnet! Join Discord →'
 }
 }
