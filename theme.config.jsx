@@ -5,8 +5,13 @@ import ZoomImage from './components/ZoomImage'
 const config = {
   // 2. TAMBAHKAN PROPERTI COMPONENTS INI
   components: {
-    img: (props) => <ZoomImage {...props} />
-  },
+  img: (props) => (
+    <img
+      {...props}
+      style={{ width: '100%', borderRadius: '8px' }}
+    />
+  )
+  }
   useNextSeoProps() {
     return {
       titleTemplate: '%s – For The Kingdom Guide'
