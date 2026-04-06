@@ -43,7 +43,7 @@ const config = {
   docsRepositoryBase: 'https://github.com/AzuraTen4/accumulation-starter-kit/blob/main',
   sidebar: {
     defaultMenuCollapseLevel: 1,
-    toggleButton: true
+    toggleButton: false
   }
 }
 export default config
