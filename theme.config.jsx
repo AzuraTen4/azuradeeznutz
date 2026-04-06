@@ -53,11 +53,11 @@ banner: {
   key: 'ftk-banner',
   content: (
     <span>
-      🎮 For The Kingdom is now in Testnet! Join{' '}
+      🎮 For The Kingdom is now in Testnet! Join the Discord → {' '}
       <a href="https://discord.gg/QB9xDPKXwT" target="_blank" style={{ textDecoration: 'underline' }}>
         FTK Discord
       </a>
-      {' '}→
+      {' '}
     </span>
   ),
 }
