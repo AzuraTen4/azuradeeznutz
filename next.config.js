@@ -9,11 +9,7 @@ export default withNextra({
   images: {
     unoptimized: true
   },
-  webpack: (config, { isServer }) => {
-    if (isServer) {
-      config.externals = config.externals || []
-      config.externals.push('react-medium-image-zoom')
-    }
-    return config
+  compiler: {
+    styledComponents: true
   }
 })
