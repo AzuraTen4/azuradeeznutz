@@ -44,7 +44,7 @@ const config = {
   sidebar: {
     defaultMenuCollapseLevel: 2,
     toggleButton: false,
-    autoCollapse: 1
+    autoCollapse: true
   }
 }
 export default config
