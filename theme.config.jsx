@@ -45,6 +45,13 @@ const config = {
     defaultMenuCollapseLevel: 2,
     toggleButton: false,
     autoCollapse: true
-  }
+  },
+  search: {
+  placeholder: 'Search Guide.....'
+},
+  banner: {
+  key: 'ftk-banner',
+  text: '🎮 For The Kingdom is now in Testnet! Join Discord →'
+}
 }
 export default config
