@@ -42,7 +42,7 @@ const config = {
   },
   docsRepositoryBase: 'https://github.com/AzuraTen4/accumulation-starter-kit/blob/main',
   sidebar: {
-    defaultMenuCollapseLevel: 1,
+    defaultMenuCollapseLevel: 0,
     toggleButton: false
   }
 }
