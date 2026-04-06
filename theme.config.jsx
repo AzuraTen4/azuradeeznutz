@@ -49,9 +49,17 @@ const config = {
   search: {
   placeholder: 'Search Guide.....'
 },
-  banner: {
-  content: 'ftk-banner',
-  text: '🎮 For The Kingdom is now in Testnet! Join Discord →'
+banner: {
+  key: 'ftk-banner',
+  content: (
+    <span>
+      🎮 For The Kingdom is now in Testnet! Join{' '}
+      <a href="https://discord.gg/QB9xDPKXwT" target="_blank" style={{ textDecoration: 'underline' }}>
+        FTK Discord
+      </a>
+      {' '}→
+    </span>
+  ),
 }
 }
 export default config
