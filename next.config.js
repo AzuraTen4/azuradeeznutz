@@ -9,7 +9,7 @@ export default withNextra({
   images: {
     unoptimized: true
   },
-  compiler: {
-    styledComponents: true
+  generateBuildId: async () => {
+    return Date.now().toString()
   }
 })
