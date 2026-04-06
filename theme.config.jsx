@@ -2,14 +2,6 @@ import React from 'react'
 import ZoomImage from './components/ZoomImage' 
 
 const config = {
-  components: {
-    img: (props) => (
-      <img
-        {...props}
-        style={{ width: '100%', borderRadius: '8px' }}
-      />
-    )
-  }, // ✅ WAJIB ADA KOMA DI SINI
 
   useNextSeoProps() {
     return {
