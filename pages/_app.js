@@ -1,6 +1,6 @@
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import dynamic from 'next/dynamic';
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import 'react-medium-image-zoom/dist/styles.css'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,11 +9,11 @@ function MyApp({ Component, pageProps }) {
       <Analytics />
       <SpeedInsights />
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp
 
 export const config = {
   unstable_runtimeJS: true
-};
+}
