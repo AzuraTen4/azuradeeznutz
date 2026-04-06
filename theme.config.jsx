@@ -1,22 +1,22 @@
 import React from 'react'
-// 1. TAMBAHKAN IMPORT INI
 import ZoomImage from './components/ZoomImage' 
 
 const config = {
-  // 2. TAMBAHKAN PROPERTI COMPONENTS INI
   components: {
-  img: (props) => (
-    <img
-      {...props}
-      style={{ width: '100%', borderRadius: '8px' }}
-    />
-  )
-  }
+    img: (props) => (
+      <img
+        {...props}
+        style={{ width: '100%', borderRadius: '8px' }}
+      />
+    )
+  }, // ✅ WAJIB ADA KOMA DI SINI
+
   useNextSeoProps() {
     return {
       titleTemplate: '%s – For The Kingdom Guide'
     }
   },
+
   logo: (
     <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
       <img 
@@ -31,27 +31,34 @@ const config = {
       </span>
     </div>
   ),
+
   head: (
     <>
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </>
   ),
+
   project: {
     link: 'https://github.com/AzuraTen4',
   },
+
   chat: {
     link: 'https://discord.gg/QB9xDPKXwT',
   },
+
   footer: {
     text: 'Made With Love ❤️ © AzuraTen4',
   },
+
   feedback: {
     content: null,
   },
+
   editLink: {
     component: null,
   },
+
   docsRepositoryBase: 'https://github.com/AzuraTen4/accumulation-starter-kit/blob/main'
 }
 
