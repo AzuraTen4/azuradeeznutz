@@ -1,5 +1,4 @@
 import React from 'react'
-import ZoomImage from './components/ZoomImage' 
 
 const config = {
 
