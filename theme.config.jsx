@@ -1,6 +1,12 @@
 import React from 'react'
+// 1. TAMBAHKAN IMPORT INI
+import ZoomImage from './components/ZoomImage' 
 
 const config = {
+  // 2. TAMBAHKAN PROPERTI COMPONENTS INI
+  components: {
+    img: (props) => <ZoomImage {...props} />
+  },
   useNextSeoProps() {
     return {
       titleTemplate: '%s – For The Kingdom Guide'
@@ -41,7 +47,6 @@ const config = {
   editLink: {
     component: null,
   },
-  // Tambahkan docs repository base
   docsRepositoryBase: 'https://github.com/AzuraTen4/accumulation-starter-kit/blob/main'
 }
 
