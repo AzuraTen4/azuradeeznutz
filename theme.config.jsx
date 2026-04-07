@@ -31,8 +31,12 @@ const config = {
   chat: {
     link: 'https://discord.gg/QB9xDPKXwT',
   },
-  footer: {
-    text: 'Made With Love ❤️ © AzuraTen4',
+footer: {
+  component: (
+    <footer style={{ textAlign: 'center', padding: '2rem', borderTop: '1px solid #333' }}>
+      Made With Love ❤️ © AzuraTen4 2026
+    </footer>
+  )
   },
   feedback: {
     content: null,
