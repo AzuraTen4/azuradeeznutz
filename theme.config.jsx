@@ -57,7 +57,7 @@ banner: {
   key: 'ftk-banner',
   content: (
     <span style={{ background: '#5865F2', padding: '4px 12px', borderRadius: '4px' }}>
-      🎮 For The Kingdom is now in Testnet! Join → {' '}
+      🎮 For The Kingdom is now in Maintenance Road to Mainnet! Join → {' '}
       <a href="https://discord.gg/QB9xDPKXwT" target="_blank" style={{ textDecoration: 'underline', color: 'white' }}>
         FTK Discord
       </a>
