@@ -1,4 +1,2 @@
 # Deez
-
-
-Update deploy test
+Feel free to contribute to this guide or fork or download and make it your own
