@@ -19,12 +19,13 @@ const config = {
       </span>
     </div>
   ),
-  head: (
-    <>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </>
-  ),
+head: (
+  <>
+    <title>For The Kingdom Wiki</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </>
+),
   project: {
     link: 'https://github.com/AzuraTen4',
   },
