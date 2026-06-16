@@ -3,7 +3,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-image: url('/gambar/deeznutz2.png');
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: center;
 }
