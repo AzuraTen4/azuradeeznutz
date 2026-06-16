@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 body {
+  font-family: 'Montserrat', sans-serif;
   background-image: url('/gambar/deeznutz2.png');
   background-size: cover;
   background-attachment: fixed;
@@ -14,4 +17,9 @@ body::before {
   height: 100%;
   background: rgba(0, 0, 0, 0.85);
   z-index: -1;
+}
+
+/* Light mode fix */
+:root[class~="light"] body::before {
+  background: rgba(255, 255, 255, 0.85);
 }
