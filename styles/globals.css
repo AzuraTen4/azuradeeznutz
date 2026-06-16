@@ -19,7 +19,26 @@ body::before {
   z-index: -1;
 }
 
-/* Light mode fix */
+
 :root[class~="light"] body::before {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+
+:root[class~="light"] .nextra-toc {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+
+:root[class~="light"] .nextra-sidebar-container {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+
+:root[class~="light"] nav {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+:root[class~="light"] main {
   background: rgba(255, 255, 255, 0.85);
 }
