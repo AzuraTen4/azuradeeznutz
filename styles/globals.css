@@ -42,3 +42,13 @@ body::before {
 :root[class~="light"] main {
   background: rgba(255, 255, 255, 0.85);
 }
+
+[role="menu"], 
+.nextra-select-menu {
+  background: rgba(20, 20, 20, 0.95) !important;
+}
+
+:root[class~="light"] [role="menu"],
+:root[class~="light"] .nextra-select-menu {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
