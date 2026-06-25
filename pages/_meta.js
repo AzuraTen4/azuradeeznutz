@@ -16,7 +16,7 @@ export default {
   "scroll": "📜 Scrolls",
   "guild": "🛡️ Guild",
   "dandelion": "🌀 Dandelion/Teleport",
-  "expedition": "🧭 Expedition",
+  "expedition": "🧭 Tower/Expedition",
   "gacha": "🌟 Wish/Gacha", 
   "misc": "🧩 Miscellaneous",
   "about": { "title": "About", "type": "page" },
