@@ -2,5 +2,5 @@ export default {
   "king": "👑 King",
   "settlement": "🏘️ Settlement",
   "ash-vault": "🗄️ Ash Vault",
-  "fameshop": "🏆 Fame Shop (ARCHIVE/UNAVAILABLE) "
+  "fameshop": "🏆 Fame Shop [ ARCHIVE ] "
 }
